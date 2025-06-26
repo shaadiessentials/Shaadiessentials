@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Become a Vendor | Shaadi Essentials</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">Shaadi Essentials</div>
+    <nav>
+      <a href="index.html"><button>Home</button></a>
+      <a href="vendors.html"><button class="secondary-btn">Browse Vendors</button></a>
+    </nav>
+  </header>
+
+  <section style="padding: 2rem;">
+    <h1>Vendor Registration</h1>
+    <p>Join the Shaadi Essentials network today!</p>
+    <form id="vendor-form" style="max-width: 500px; margin-top:1rem;">
+      <label>Name:<br />
+        <input type="text" name="name" required style="width:100%; padding:0.5rem; margin:0.5rem 0;" />
+      </label><br />
+      <label>Email:<br />
+        <input type="email" name="email" required style="width:100%; padding:0.5rem; margin:0.5rem 0;" />
+      </label><br />
+      <label>Service Category:<br />
+        <select name="category" required style="width:100%; padding:0.5rem; margin:0.5rem 0;">
+          <option value="">Select...</option>
+          <option>Catering</option>
+          <option>Decor</option>
+          <option>Photography</option>
+          <option>Makeup</option>
+          <option>Desserts</option>
+        </select>
+      </label><br />
+      <label>Description:<br />
+        <textarea name="description" rows="4" style="width:100%; padding:0.5rem; margin:0.5rem 0;"></textarea>
+      </label><br />
+      <button type="submit">Submit Application</button>
+    </form>
+  </section>
+
+  <footer>
+    &copy; 2025 Shaadi Essentials. All rights reserved.
+  </footer>
+  <script src="js/register.js"></script>
+</body>
+</html>

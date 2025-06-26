@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Elegant Eats",
+    "category": "Catering",
+    "image": "https://via.placeholder.com/150?text=Elegant+Eats"
+  },
+  {
+    "name": "Decora Dreams",
+    "category": "Decor",
+    "image": "https://via.placeholder.com/150?text=Decora+Dreams"
+  },
+  {
+    "name": "Lens Love",
+    "category": "Photography",
+    "image": "https://via.placeholder.com/150?text=Lens+Love"
+  }
+]
